@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import '../logic/call_channel.dart';
 
 class CallDisplayScreen extends StatefulWidget {
+  const CallDisplayScreen({super.key});
+
   @override
   _CallDisplayScreenState createState() => _CallDisplayScreenState();
 }

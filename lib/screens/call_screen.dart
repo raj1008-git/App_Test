@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 class CallScreen extends StatefulWidget {
-  const CallScreen({Key? key}) : super(key: key);
+  const CallScreen({super.key});
 
   @override
   State<CallScreen> createState() => _CallScreenState();
