@@ -19,13 +19,13 @@ class IncDecPage extends StatelessWidget {
             tooltip: 'Increment',
             child: const Icon(Icons.add),
           ),
-          // FloatingActionButton(
-          //   onPressed: () {
-          //     counterCubit.decrement();
-          //   },
-          //   tooltip: 'Increment',
-          //   child: const Icon(Icons.remove),
-          // ),
+          FloatingActionButton(
+            onPressed: () {
+              counterCubit.decrement();
+            },
+            tooltip: 'Increment',
+            child: const Icon(Icons.remove),
+          ),
         ],
       ),
     );
